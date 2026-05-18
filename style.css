@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Cabin';
-    background-color: #758190;
+    background-color: lightblue; 
 }
 
 #tentacles {
@@ -19,6 +19,30 @@ body {
     margin-top: -10px;
 }
 
+.navbar {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #20e0d0be;
+    padding: 15px;
+    gap: 30px;
+}
+
+.navbar a {
+    color: navy;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+    box-shadow: 0 0 30px navy;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 .stats-container {
     display: flex;
     align-items: center;
@@ -26,11 +50,11 @@ body {
 
 .stats-card:hover {
     cursor: pointer;
-    box-shadow: 0 0 30px lightblue;
+    box-shadow: 0 0 30px #20e0d0be;
 }
 
 .stats-card {
-    background-color: #a8b0bc;
+    background-color: #9489d0c5;
     border-radius: 7px;
     padding: 1%;
     margin: 1%;
@@ -55,7 +79,7 @@ body {
 }
 
 .game-card {
-    background-color: #FFFFFF;
+    background-color: #cff8e7;
     padding: 1%;
     margin: 1%;
     width: 300px;
@@ -65,7 +89,7 @@ body {
 
 .game-card:hover {
     cursor: pointer;
-    box-shadow: 0 0 30px lightblue;
+    box-shadow: 0 0 30px #9489d0c5;
 }
 
 #button-container {
@@ -78,4 +102,12 @@ button {
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+    color: navy;
+    background-color: #20e0d0be;
+    font-size: 15px;
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px #9489d0c5;
 }
